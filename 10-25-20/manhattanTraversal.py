@@ -7,11 +7,6 @@
 # The points are arrays or tuples containing the x and y coordinate in the grid. You can think of x as the row in the grid, and y as the column.
 
 def manhattan_distance(pointA, pointB):
-    count = 0 
-
-    if pointA == pointB:
-        return 0
-
     row = abs(pointA[0] - pointB[0]) 
     col = abs(pointA[1] - pointB[1])
 
