@@ -34,6 +34,6 @@ def beggars(values, n):
         
 
 
-print(beggars([1, 2, 3, 4, 5], 6))
+print(beggars([1, 2, 3, 4, 5], 2))
 
 
